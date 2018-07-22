@@ -86,17 +86,8 @@ First architecture choosen for the traffic sign classifier was the one from letn
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
-
-![Alt text](C:/Users/german/Desktop/1.jpg?raw=true "Title")
+![1](https://user-images.githubusercontent.com/41348711/43049863-56e5db3e-8dff-11e8-87e2-e813b5fc0374.gif)
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-|      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+
