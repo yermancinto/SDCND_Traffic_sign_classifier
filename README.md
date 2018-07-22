@@ -84,10 +84,10 @@ First architecture choosen for the traffic sign classifier was the one from letn
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
+Picture below shows six images randomly selected from the german traffic sign dataset and the prediction results using my final model: (http://benchmark.ini.rub.de/)
 
 ![1](https://user-images.githubusercontent.com/41348711/43049863-56e5db3e-8dff-11e8-87e2-e813b5fc0374.gif)
 
-Here are the results of the prediction:
+For this particular case the result is 100% accuracy
 
 
