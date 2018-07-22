@@ -114,3 +114,14 @@ For the second image the model is completly sure about the prediction:
 | .00					| 7-Spped limit 100kph											|
 | .00	      			| 15-No vehicles			 				|
 | .00				    | 8-Speed limit 120kph	     							|
+
+
+For the thrid image the model is completly sure about the prediction:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1         			| 13-Yield							| 
+| .00     				| 35-Ahead only 										|
+| .00					| 15-No vehicles											|
+| .00	      			| 33-Turn right ahead			 				|
+| .00				    | 9-No passing	     							|
