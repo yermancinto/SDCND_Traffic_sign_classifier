@@ -95,7 +95,9 @@ For this particular case the result is 100% accuracy
 
 The code for making predictions on my final model is located in the 61st cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a priority road sign (probability of 0.45),althoug yield road sign is close to the first one...
+For the first image, Priority sign has the higher probability, but still Yield sign has a 36%. For the rest of the images the model identifies easly the traffic sign. See below detailed predictions: 
+
+1st image:
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -105,7 +107,7 @@ For the first image, the model is relatively sure that this is a priority road s
 | .11	      			| 40-Roundabout mandatory			 				|
 | .10				    | 11-Right-of-way at the next intersection      							|
 
-For the second image the model is completly sure about the prediction:
+2nd image:
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -116,12 +118,42 @@ For the second image the model is completly sure about the prediction:
 | .00				    | 8-Speed limit 120kph	     							|
 
 
-For the thrid image the model is completly sure about the prediction:
+3rd image:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .99         			| 3-Speed limit 60kph							| 
+| .00     				| 5-Speed limit 50kph 										|
+| .00					| 15-No vehicles											|
+| .00	      			| 35-Ahead only			 				|
+| .00				    | 9-No passing	     							|
+
+4th image: 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1         			| 13-Yield							| 
 | .00     				| 35-Ahead only 										|
 | .00					| 15-No vehicles											|
+| .00	      			| 33-Turn right ahead			 				|
+| .00				    | 9-No passing	     							|
+
+5th image:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .99         			| 1-Spped limit 30kph						| 
+| .00     				| 4-Speed limit 70kph 										|
+| .00					| 0-Spped limit 20kph											|
+| .00	      			| 2-Speed limit 50kph			 				|
+| .00				    | 7-Spped limit 100kph	     							|
+
+6th image: 
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .99         			| 13-Yield					| 
+| .00     				| 35-Ahead only										|
+| .00					| 15-No vehicles										|
 | .00	      			| 33-Turn right ahead			 				|
 | .00				    | 9-No passing	     							|
