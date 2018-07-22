@@ -99,11 +99,11 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .45         			| 4-Speed limit 70kph 									| 
-| .36     				| 1-Spped limit 30kph 										|
-| .14					| 7-Spped limit 100kph											|
-| .11	      			| 15-No vehicles				 				|
-| .10				    | 8-End of speed limit 80kph      							|
+| .45         			| 12-Priority road 									| 
+| .36     				| 13-Yield 										|
+| .14					| 1-Spped limit 30kph											|
+| .11	      			| 40-Roundabout mandatory			 				|
+| .10				    | 11-Right-of-way at the next intersection      							|
 
 
 For the second image ... 
