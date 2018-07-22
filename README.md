@@ -95,7 +95,7 @@ For this particular case the result is 100% accuracy
 
 The code for making predictions on my final model is located in the 61st cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image, the model is relatively sure that this is a priority road sign (probability of 0.45),althoug yield road sign is close to the first one...
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -105,5 +105,12 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | .11	      			| 40-Roundabout mandatory			 				|
 | .10				    | 11-Right-of-way at the next intersection      							|
 
+For the second image the model is completly sure about the prediction:
 
-For the second image ... 
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .99         			| 4-Speed limit 70kph							| 
+| .00     				| 1-Speed limit 30kph	 										|
+| .00					| 7-Spped limit 100kph											|
+| .00	      			| 15-No vehicles			 				|
+| .00				    | 8-Speed limit 120kph	     							|
