@@ -16,7 +16,8 @@ signs data set:
 * The number of unique classes/labels in the data set is 43
 
 #### 2. Include an exploratory visualization of the dataset
- I loaded the "signnames.csv" using csv library and print a random image with it´s label
+I added some lines of code to plot 5 signals of each type so I can understand better the handicap my NN has to deal with. Its an slow process so I just show below three samples (). The complete image matrix can be found under the *.html file.   
+
 
 ### Design and Test a Model Architecture
 
