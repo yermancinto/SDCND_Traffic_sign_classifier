@@ -17,6 +17,7 @@ signs data set:
 
 See below the histograms for the trainning, validation and test datasets respectively:
 ![imagen](https://user-images.githubusercontent.com/41348711/43163666-197b21d2-8f8f-11e8-87a3-e42136425f70.png)
+There are hudge differences in the naumber of samples of each traffic sign. Logic tells me that the more numerous, better trained the model for that specific traffic sign, so in the next step. Less numerous classes will (...) 
 
 #### 2. Include an exploratory visualization of the dataset
 I added some lines of code to plot 5 signals of each type so I can understand better the handicap my NN has to deal with. It is a slow process so I just showed below 5 traffic sign samples that summarize the whole dataset. The complete image matrix can be found under the *.html file.   
