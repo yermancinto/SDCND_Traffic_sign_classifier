@@ -16,7 +16,7 @@ signs data set:
 * The number of unique classes/labels in the data set is 43
 
 #### 2. Include an exploratory visualization of the dataset
-I added some lines of code to plot 5 signals of each type so I can understand better the handicap my NN has to deal with. Its an slow process so I just show below three samples (). The complete image matrix can be found under the *.html file.   
+I added some lines of code to plot 5 signals of each type so I can understand better the handicap my NN has to deal with. It is a slow process so I just showed below 5 traffic sign samples that summarize the whole dataset. The complete image matrix can be found under the *.html file.   
 
 50kph speed limit:
 ![imagen](https://user-images.githubusercontent.com/41348711/43152871-038a6410-8f70-11e8-93b9-66204018ef3e.png)
