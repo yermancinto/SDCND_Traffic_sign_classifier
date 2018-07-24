@@ -18,7 +18,20 @@ signs data set:
 #### 2. Include an exploratory visualization of the dataset
 I added some lines of code to plot 5 signals of each type so I can understand better the handicap my NN has to deal with. Its an slow process so I just show below three samples (). The complete image matrix can be found under the *.html file.   
 
+50kph speed limit:
 ![imagen](https://user-images.githubusercontent.com/41348711/43152871-038a6410-8f70-11e8-93b9-66204018ef3e.png)
+60kph speed limit: (even if you can not see the last two images they are there...)
+![imagen](https://user-images.githubusercontent.com/41348711/43153037-759d6b42-8f70-11e8-83ee-b973d7e882fc.png)
+
+
+Accordint to this first exploration the main problems our model will face are:
+* Images under different lighting conditions: extremely high brightness and low contrast images
+* Blurred images
+* Signs covered by trees or other objects
+* Different sizing
+* dSome of them are in perspective view
+* Pieces of other traffic signs in the same picture
+* Some of them are slightly rotated
 
 ### Design and Test a Model Architecture
 
