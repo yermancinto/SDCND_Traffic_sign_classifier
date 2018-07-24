@@ -15,6 +15,9 @@ signs data set:
 * The shape of each traffic sign image is (32,32,3)
 * The number of unique classes/labels in the data set is 43
 
+See below the histograms for the trainning, validation and test datasets respectively:
+![imagen](https://user-images.githubusercontent.com/41348711/43162740-4b9245e0-8f8c-11e8-9dd1-13a0397f782e.png)
+
 #### 2. Include an exploratory visualization of the dataset
 I added some lines of code to plot 5 signals of each type so I can understand better the handicap my NN has to deal with. It is a slow process so I just showed below 5 traffic sign samples that summarize the whole dataset. The complete image matrix can be found under the *.html file.   
 
