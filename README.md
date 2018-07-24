@@ -24,6 +24,8 @@ I added some lines of code to plot 5 signals of each type so I can understand be
 ![imagen](https://user-images.githubusercontent.com/41348711/43153037-759d6b42-8f70-11e8-83ee-b973d7e882fc.png)
 Bicycles crossing:
 ![imagen](https://user-images.githubusercontent.com/41348711/43153653-2734be36-8f72-11e8-9cbc-8053fa48598b.png)
+Be aware (ice/snow):
+![imagen](https://user-images.githubusercontent.com/41348711/43153788-8b521134-8f72-11e8-9e2d-5bfec22c9f52.png)
 
 Accordint to this first exploration the main problems our model will face are:
 * Images under different lighting conditions: extremely high brightness and low contrast images
