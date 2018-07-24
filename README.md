@@ -20,9 +20,10 @@ I added some lines of code to plot 5 signals of each type so I can understand be
 
 50kph speed limit:
 ![imagen](https://user-images.githubusercontent.com/41348711/43152871-038a6410-8f70-11e8-93b9-66204018ef3e.png)
-60kph speed limit: (even if you can not see the last two images they are there...)
+60kph speed limit: (even if you can not see the last two images are there...)
 ![imagen](https://user-images.githubusercontent.com/41348711/43153037-759d6b42-8f70-11e8-83ee-b973d7e882fc.png)
-
+Bicycles crossing:
+![imagen](https://user-images.githubusercontent.com/41348711/43153653-2734be36-8f72-11e8-9cbc-8053fa48598b.png)
 
 Accordint to this first exploration the main problems our model will face are:
 * Images under different lighting conditions: extremely high brightness and low contrast images
