@@ -26,9 +26,12 @@ Bicycles crossing:
 ![imagen](https://user-images.githubusercontent.com/41348711/43153653-2734be36-8f72-11e8-9cbc-8053fa48598b.png)
 Be aware (ice/snow):
 ![imagen](https://user-images.githubusercontent.com/41348711/43153788-8b521134-8f72-11e8-9e2d-5bfec22c9f52.png)
+Turn left ahead:
+![imagen](https://user-images.githubusercontent.com/41348711/43154025-39a854d2-8f73-11e8-8f03-d36b40882c6a.png)
 
-Accordint to this first exploration the main problems our model will face are:
-* Images under different lighting conditions: extremely high brightness and low contrast images
+From this first exploration we can extract the main problems our model will face:
+* High brightness images I
+* Low contrast images
 * Blurred images
 * Signs covered by trees or other objects
 * Different sizing
