@@ -18,6 +18,7 @@ signs data set:
 #### 2. Include an exploratory visualization of the dataset
 I added some lines of code to plot 5 signals of each type so I can understand better the handicap my NN has to deal with. Its an slow process so I just show below three samples (). The complete image matrix can be found under the *.html file.   
 
+![imagen](https://user-images.githubusercontent.com/41348711/43152871-038a6410-8f70-11e8-93b9-66204018ef3e.png)
 
 ### Design and Test a Model Architecture
 
