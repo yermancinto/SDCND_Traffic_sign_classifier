@@ -30,17 +30,17 @@ Turn left ahead:
 ![imagen](https://user-images.githubusercontent.com/41348711/43154025-39a854d2-8f73-11e8-8f03-d36b40882c6a.png)
 
 From this first exploration we can extract the main problems our model will face:
-* High brightness images I
+* High brightness images
 * Low contrast images
 * Blurred images
 * Signs covered by trees or other objects
 * Different sizing
-* dSome of them are in perspective view
+* Some of them are in perspective view or slightly rotated
 * Pieces of other traffic signs in the same picture
-* Some of them are slightly rotated
 
 ### Design and Test a Model Architecture
 
+Due to the different lighting conditions on the images I will not use the colour of the traffic signs as a factor to classify them
 1. The data process follows below structure:
 * Convert the image into greyscale
 * Normalize the image to have zero mean values and equal variance. First I used below code:
