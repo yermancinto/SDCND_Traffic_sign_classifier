@@ -44,6 +44,10 @@ From this first exploration we can extract the main problems our model will face
 
 ### Design and Test a Model Architecture
 
+### 1. Augment the existing data Set:
+
+### 2. Process the images:
+
 Due to the different lighting conditions on the images I will not use the colour of the traffic signs as a factor to classify them
 1. The data process follows below structure:
 * Convert the image into greyscale
