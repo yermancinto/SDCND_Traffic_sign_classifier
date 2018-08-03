@@ -120,9 +120,9 @@ First architecture choosen for the traffic sign classifier was the one from letn
 
 Picture below shows six images randomly selected from the german traffic sign dataset and the prediction results using my final model: (http://benchmark.ini.rub.de/)
 
-![1](https://user-images.githubusercontent.com/41348711/43049863-56e5db3e-8dff-11e8-87e2-e813b5fc0374.gif)
+![imagen](https://user-images.githubusercontent.com/41348711/43659893-a69a4c2a-975d-11e8-8ea2-aee86bc0764b.png)
 
-For this particular case the result is 100% accuracy
+For this particular case I aws lucky and the result is 100% accuracy
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -135,59 +135,59 @@ For the first image, Priority sign has the higher probability, but still Yield s
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .45         			| 12-Priority road 									| 
-| .36     				| 13-Yield 										|
-| .14					| 1-Spped limit 30kph											|
-| .11	      			| 40-Roundabout mandatory			 				|
-| .10				    | 11-Right-of-way at the next intersection      							|
+| .99         			| 1-Speed limit 30kph 									| 
+| .00     				| 2-Speed limit 50kph									|
+| .00					| 7-Spped limit 100kph											|
+| .00	      			| 5-Speed limit 80kph			 				|
+| .00				    | 0-Speed limit 20kph      							|
 
 2nd image:
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .99         			| 4-Speed limit 70kph							| 
-| .00     				| 1-Speed limit 30kph	 										|
-| .00					| 7-Spped limit 100kph											|
-| .00	      			| 15-No vehicles			 				|
-| .00				    | 8-Speed limit 120kph	     							|
+| .69         			| 35-Ahead only							| 
+| .28     				| 9-No passing	 										|
+| .01					| 3-Spped limit 60kph											|
+| .00	      			| 10-No passing for vehicles over 3.5 metric tons 				|
+| .00				    | 15-No vehicles	     							|
 
 
 3rd image:
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .99         			| 3-Speed limit 60kph							| 
-| .00     				| 5-Speed limit 50kph 										|
-| .00					| 15-No vehicles											|
-| .00	      			| 35-Ahead only			 				|
-| .00				    | 9-No passing	     							|
+| 1         			| 11-Right-of-way at the next intersection							| 
+| .00     				| 36-Go straight or right 										|
+| .00					| 12-Priority road											|
+| .00	      			| 40-Roundabout mandatory			 				|
+| .00				    | 30-Beware of ice/snow	     							|
 
 4th image: 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 1         			| 13-Yield							| 
-| .00     				| 35-Ahead only 										|
+| .99         			| 10-No passing for vehicles over 3.5 metric tons							| 
+| .00     				| 9-No passing 										|
 | .00					| 15-No vehicles											|
-| .00	      			| 33-Turn right ahead			 				|
-| .00				    | 9-No passing	     							|
+| .00	      			| 3-Speed limit 60kph			 				|
+| .00				    | 5-Speed limit 80kph	     							|
 
 5th image:
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .99         			| 1-Spped limit 30kph						| 
-| .00     				| 4-Speed limit 70kph 										|
-| .00					| 0-Spped limit 20kph											|
-| .00	      			| 2-Speed limit 50kph			 				|
-| .00				    | 7-Spped limit 100kph	     							|
+| 1         			| 13-Yield						| 
+| .00     				| 35-Ahead only 										|
+| .00					| 15-No vehicles											|
+| .00	      			| 3-Speed limit 60kph			 				|
+| .00				    | 9-No passing	     							|
 
 6th image: 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .99         			| 13-Yield					| 
-| .00     				| 35-Ahead only										|
-| .00					| 15-No vehicles										|
-| .00	      			| 33-Turn right ahead			 				|
-| .00				    | 9-No passing	     							|
+| 1         			| 15-No vehicles					| 
+| .00     				| 8-Speed limit 120kph										|
+| .00					| 12-Priority road										|
+| .00	      			| 4-Speed limit 70kph			 				|
+| .00				    | 32-End of all speed and passing limits	     							|
