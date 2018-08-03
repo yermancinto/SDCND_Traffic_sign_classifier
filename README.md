@@ -127,9 +127,11 @@ For this particular case I aws lucky and the result is 100% accuracy
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 
-The code for making predictions on my final model is located in the 61st cell of the Ipython notebook.
+The code for making predictions on my final model is located in the 27th cell of the Ipython notebook.
 
-For the first image, Priority sign has the higher probability, but still Yield sign has a 36%. For the rest of the images the model identifies easly the traffic sign. See below detailed predictions: 
+Except for the second image, the NN identifies easily the traffic signs. It is possible that for the second image, the white spot beside the arrow confuses the NN giving a 28% probability to "No passing" traffic sign 
+
+See below detailed predictions: 
 
 1st image:
 
